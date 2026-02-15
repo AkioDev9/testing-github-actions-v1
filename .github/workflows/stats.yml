@@ -1,0 +1,32 @@
+name: Stats CI
+
+# Cuando queremos que se lance la github action -> usar on
+on:
+  push:
+    branches: [main]
+    
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    permissions: 
+      contents: write
+
+    steps:
+      - name: Clonning repository 
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.14' 
+          
+      - name: Execute script
+        run: python stats.py
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v7.1.0
+        with:
+            commit_message: Update stats
+
+
