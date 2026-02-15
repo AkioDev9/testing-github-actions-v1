@@ -1,6 +1,9 @@
 name: Stats CI
 
 on:
+  schedule:
+  # Tarea que se ejecuta cronológicamente 
+    - cron: "30 8 * * 1" # Runs at 08:30, only on Monday (1)
   push:
     branches: [main]
 
