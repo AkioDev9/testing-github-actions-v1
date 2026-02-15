@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "generated_at_utc": "2026-02-15T04:13:40.274142Z",
+    "seed": 7562532,
+    "events": 2000
+  },
+  "stats": {
+    "counts": {
+      "ok": 1926,
+      "error": 74,
+      "error_rate": 0.037
+    },
+    "duration_ms": {
+      "avg": 253.19,
+      "min": 50,
+      "max": 450
+    },
+    "top": {
+      "categories": [
+        [
+          "profile",
+          355
+        ],
+        [
+          "orders",
+          345
+        ],
+        [
+          "payments",
+          337
+        ]
+      ],
+      "regions": [
+        [
+          "NA",
+          358
+        ],
+        [
+          "OC",
+          352
+        ],
+        [
+          "EU",
+          343
+        ]
+      ]
+    }
+  }
+}
