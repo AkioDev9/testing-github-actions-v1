@@ -1,47 +1,47 @@
 {
   "meta": {
-    "generated_at_utc": "2026-02-23T09:12:53.075737Z",
-    "seed": 8094012,
+    "generated_at_utc": "2026-03-02T09:07:07.522467Z",
+    "seed": 1727210,
     "events": 2000
   },
   "stats": {
     "counts": {
-      "ok": 1918,
-      "error": 82,
-      "error_rate": 0.041
+      "ok": 1924,
+      "error": 76,
+      "error_rate": 0.038
     },
     "duration_ms": {
-      "avg": 249.04,
+      "avg": 249.81,
       "min": 50,
       "max": 450
     },
     "top": {
       "categories": [
         [
-          "payments",
-          384
+          "search",
+          348
         ],
         [
           "orders",
-          340
+          338
         ],
         [
-          "search",
-          334
+          "profile",
+          336
         ]
       ],
       "regions": [
         [
           "EU",
-          348
-        ],
-        [
-          "SA",
-          341
+          352
         ],
         [
           "AF",
-          333
+          346
+        ],
+        [
+          "SA",
+          338
         ]
       ]
     }
