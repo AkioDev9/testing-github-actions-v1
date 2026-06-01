@@ -1,46 +1,46 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-25T12:03:18.154270Z",
-    "seed": 2201189,
+    "generated_at_utc": "2026-06-01T14:31:59.101365Z",
+    "seed": 9638684,
     "events": 2000
   },
   "stats": {
     "counts": {
-      "ok": 1915,
-      "error": 85,
-      "error_rate": 0.0425
+      "ok": 1924,
+      "error": 76,
+      "error_rate": 0.038
     },
     "duration_ms": {
-      "avg": 249.17,
+      "avg": 247.86,
       "min": 50,
       "max": 450
     },
     "top": {
       "categories": [
         [
-          "orders",
-          354
-        ],
-        [
           "payments",
-          352
+          362
         ],
         [
-          "profile",
-          350
+          "support",
+          344
+        ],
+        [
+          "auth",
+          330
         ]
       ],
       "regions": [
         [
-          "EU",
-          352
-        ],
-        [
-          "AF",
-          341
+          "AS",
+          344
         ],
         [
           "SA",
+          341
+        ],
+        [
+          "NA",
           339
         ]
       ]
