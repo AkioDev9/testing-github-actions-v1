@@ -1,47 +1,47 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-08T12:44:37.018883Z",
-    "seed": 9288437,
+    "generated_at_utc": "2026-06-15T14:41:44.350806Z",
+    "seed": 6056804,
     "events": 2000
   },
   "stats": {
     "counts": {
-      "ok": 1909,
-      "error": 91,
-      "error_rate": 0.0455
+      "ok": 1920,
+      "error": 80,
+      "error_rate": 0.04
     },
     "duration_ms": {
-      "avg": 249.43,
+      "avg": 248.64,
       "min": 50,
       "max": 450
     },
     "top": {
       "categories": [
         [
-          "search",
-          352
-        ],
-        [
           "profile",
-          343
+          356
         ],
         [
           "auth",
           342
+        ],
+        [
+          "search",
+          341
         ]
       ],
       "regions": [
         [
-          "AS",
-          344
+          "OC",
+          349
         ],
         [
           "SA",
-          341
+          338
         ],
         [
-          "OC",
-          341
+          "AS",
+          335
         ]
       ]
     }
